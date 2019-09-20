@@ -1,0 +1,14 @@
+input[type=submit].masuk{
+    @include btn-masuk();
+    &:hover {
+        background: #e40f13; 
+        color:#ffffff;
+    } 
+}
+input[type=submit].keluar{
+    @include btn-keluar();
+    &:hover {
+        background: #ffffff;
+        color: #e40f13;
+    }
+}

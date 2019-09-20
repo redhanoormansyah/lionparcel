@@ -1,0 +1,29 @@
+// Header Section
+.bg-cover{
+    @include backImage('../img/bg-header.png',797px);
+}
+.bg-jumbo{
+    @include backImage('../img/landing-page-img.png',430px);
+    width: 600px;
+}
+.img-icon{
+    @include iconImage(113px);
+}
+.testimoni{
+    @include backTesti('../img/bg testi.jpg');
+}
+
+// INDEX2
+#header-section{
+    @include backImage('../img/bg-header.png',797px);
+}
+
+#testimoni{
+    @include backTesti('../img/bg testi.jpg',475px);
+    padding-top:125px;
+    margin-top: 100px;
+}
+#daftar-agen{
+    @include backAgen('../img/bg-daftar-agen.png');
+  
+}

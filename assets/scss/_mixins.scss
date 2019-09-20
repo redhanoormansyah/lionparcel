@@ -1,0 +1,50 @@
+
+// Bacground 
+@mixin backImage($image,
+  $height: 100vh,
+  $bgPos: center center
+  ) {
+  background:url($image);
+  background-repeat: no-repeat;
+  background-position: $bgPos;
+  background-size: cover;
+  height: $height;
+}
+
+// Navigations
+@mixin btn-masuk(){
+  border: 2px solid white;
+  background-color: white;
+  color: #ec0e12; 
+  margin-right: 33px;
+}
+
+@mixin btn-keluar(){
+    border: 2px solid white;
+    background-color: #ec0e12;
+    color: white; 
+}
+
+@mixin iconImage($size:113px){
+  width: $size;
+}
+@mixin backTesti($image,
+$height: 100vh,
+$bgPos: center center
+) {
+  background:url($image );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $height;
+  background-position: $bgPos;
+  
+}
+@mixin backAgen($image,
+) {
+  background:url($image );
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
